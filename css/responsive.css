@@ -1,0 +1,342 @@
+@media only screen and (max-width: 1081px) {
+    .container {
+        width: 90%;
+    }
+    header .container {
+        overflow: hidden;
+    }
+    header .logo {
+        text-align: center;
+    }
+    header nav {
+        display: none;
+        position: fixed;
+        top: 9rem;
+        right: 0;
+        width: 50%;
+        background-color: #1f373d;
+        padding: 3rem 0;
+    }
+    header nav ul {
+        display: flex;
+        flex-direction: column;
+    }
+    header nav ul li {
+        margin: 3rem;
+    }
+    header nav.show {
+        display: block;
+    }
+    header .hamburger {
+        display: block;
+        width: 3rem;
+        height: 3rem;
+        border: 0.3rem solid #ffffff;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        margin-left: 1rem;
+    }
+    .hamburger .hamb {
+        width: 80%;
+        height: 0.4rem;
+        background-color: #ffffff;
+    }
+    .box1 {
+        position: absolute;
+        top: 1.8rem;
+        transition: transform 0.5s ease;
+    }
+    .toggler.box1{
+        transform: rotate(495deg);
+        top: 1rem;
+    }
+    .box2 {
+        transition: opacity 0.5s ease, width 0.5s ease;
+    }
+    .toggler.box2{
+        opacity: 0;
+        width: 10px;
+    }
+    .box3 {
+        position: absolute;
+        bottom: 1.8rem;
+        transition: transform 0.5s ease;
+    }
+    .toggler.box3{
+        transform: rotate(405deg);
+        bottom: 1.2rem;
+    }    
+    .hero-container .container .hero-text {
+        width: 55%;
+        height: 100%;
+    }
+}
+
+
+@media only screen and (max-width: 902px){
+    .hero-container {
+        height: 70vh;
+    }
+    .hero-container .hero-text h1 {
+        font-size: 3rem;
+    }
+    .hero-container .hero-text .search-box .fas {
+        font-size: 1rem;
+    }
+    .hero-container .hero-text .search-box .search-input {
+        font-size: 1rem;
+    }
+    .hero-container .hero-text .search-box .search-button {
+        font-size: 1rem;
+    }
+    .hero-container .hero-box .location-box {
+        font-size: 1rem;
+    }
+    .hero-container .hero-box .location-box .fas {
+        margin-right: 0.1rem;
+    }
+
+
+
+    .statistics-container .container {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .statistics-container .statistics-text {
+        width: 100%;
+        margin-bottom: 2rem;
+    }
+    .statistics-container .statistics-text h2 {
+        font-size: 4rem;
+        margin-bottom: 1.5rem;
+    }
+    .statistics-container .statistics-text p {
+        font-size: 1.3rem;
+    }
+    .statistics-container .statistics-box {
+        width: 100%;
+        height: 20rem;
+    }
+    .statistics-container .statistics-box .statistics {
+        font-size: 1.5rem;
+    }
+    .statistics-container .statistics-box .statistics span {
+        font-size: 3rem;
+    }
+
+
+    
+    .appartments-container .container h2 {
+        width: 70%;
+        font-size: 4rem;
+        margin: 0 auto 4rem auto;
+    }
+    .appartments-container .appartments {
+        width: 70%;
+        margin: auto;
+        grid-template-columns: 1fr;
+        grid-gap: 5rem;
+    }
+    .appartments-container .appartments .appertment p {
+        font-size: 1.5rem;
+        margin: 1.5rem auto;
+    }
+    .appartments-container .appartments .appertment .room-details {
+        font-size: 1.5rem;
+    }
+    .appartments-container .container .view-all {
+        margin-top: 6rem;
+        width: 70%;
+    }
+    .appartments-container .container .view-all .search-box {
+    }
+    .appartments-container .container .view-all .search-box .fas {
+        font-size: 1rem;
+    }
+    .appartments-container .container .view-all .search-box .search-input {
+        font-size: 1.3rem;
+    }
+    .appartments-container .container .view-all .search-box .search-button {
+        font-size: 1.3rem;
+    }
+    .appartments-container .container .view-all>button {
+        font-size: 1.3rem;
+    }
+
+
+
+    .how-it-works-container .container .how-it-works-text {
+        width: 100%;
+    }
+    .how-it-works-container .container .how-it-works-text h2 {
+        font-size: 4rem;
+        margin-bottom: 1rem;
+    }
+    .how-it-works-container .container .how-it-works-text p {
+        font-size: 1.5rem;
+        margin-bottom: 6rem;
+    }
+    .how-it-works-container .container .how-it-works .works-to-do {
+        margin-top: 9rem;
+        padding: 2rem;
+    }
+    .how-it-works-container .container .how-it-works .works-to-do h3 {
+        font-size: 2rem;
+    }
+    .how-it-works-container .container .how-it-works .works-to-do p {
+        font-size: 1.5rem;
+    }
+    .how-it-works-container .container .how-it-works .works-to-do a {
+        font-size: 1.5rem;
+    }
+
+
+
+    .services-container .container .service-text {
+        width: 70%;
+        margin: auto;
+        margin-bottom: 4rem;
+    }
+    .services-container .container .service-text h3 {
+        font-size: 4rem;
+        margin-bottom: 1rem;
+    }
+    .services-container .container .service-text p {
+        font-size: 1.5rem;
+    }
+    .services-container .container .services {
+        flex-direction: column;
+        justify-content: center;
+    }
+    .services-container .container .services img {
+        width: 80%;
+        height: 50vh;
+        margin: auto;
+        margin-bottom: 3rem;
+    }
+    .services-container .container .services .service {
+        width: 80%;
+        margin: auto;
+    }
+
+
+
+    .agents-container .container h2 {
+        width: 80%;
+        font-size: 4rem;
+        margin: auto;
+        margin-bottom: 2rem;
+    }
+    .agents-container .container p {
+        width: 80%;
+        font-size: 1.5rem;
+        margin: auto;
+        margin-bottom: 4rem;
+    }
+    .agents-container .agents {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 3rem;
+    }
+    .agents-container .agents .agent {
+        height: 60vh;
+        width: 60%;
+    }
+    .agents-container .agents .agent p {
+        margin: 1.5rem auto;
+    }
+    .agents-container .agents .agent .agent-details {
+        font-size: 1.5rem;
+    }
+
+
+    footer .container .newsletter-container {
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+    }
+    footer .container .newsletter-container .logo {
+        width: 80%;
+        margin-bottom: 3rem;
+    }
+    footer .container .newsletter-container .logo a {
+        font-size: 3rem;
+    }
+    footer .container .newsletter-container .logo h2 {
+        font-size: 2rem;
+    }
+    footer .container .newsletter-container .newsletter {
+        width: 50%;
+    }
+    footer .container .newsletter-container .newsletter input {
+        padding: 0.8rem;
+        font-size: 1.3rem;
+    }
+    footer .container .newsletter-container .newsletter button i {
+        font-size: 3rem;
+    }
+}
+
+@media only screen and (max-width: 600px){
+    footer .container .newsletter-container .newsletter {
+        width: 80%;
+    }
+}
+
+
+@media only screen and (max-width: 700px){
+    .how-it-works-container .container .how-it-works-box {
+        grid-template-columns: 1fr;
+        grid-gap: 6rem;
+        width: 70%;
+        margin: auto;
+    }
+}
+@media only screen and (max-width: 1300px) and (min-width: 700px) {
+
+    .how-it-works-container .container .how-it-works-box {
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 6rem;
+    }
+}
+
+
+@media only screen and (max-width: 1300px) and (min-width: 901px) {
+    .appartments-container .appartments {
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 4rem;        
+    }
+    .how-it-works-container .container .how-it-works-box {
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 6rem;
+    }
+    .agents-container .agents {
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 6rem;
+    }
+}
+@media only screen and (min-width: 2000px){
+    .appartments-container .appartments {
+        grid-gap: 7rem;        
+    }
+    .agents-container .agents {
+        grid-gap: 7rem;
+    }
+    .how-it-works-container .container .how-it-works-box {
+        grid-gap: 7rem;
+    }
+}
+@media only screen and (min-width: 2300px){
+    .appartments-container .appartments,
+    .agents-container .agents {
+        grid-template-columns: 1fr 1fr 1fr 1fr;      
+    }
+}
+
+
